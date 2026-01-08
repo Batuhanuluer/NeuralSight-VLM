@@ -1,0 +1,37 @@
+# ==========================================
+# NEURALSIGHT VLM - PROJECT SPECIFIC IGNORE
+# ==========================================
+
+# --- 1. Models & Weights (The Big Stuff) ---
+# We keep the folder structure but ignore the heavy binary files
+models/
+*.pt
+*.bin
+*.weights
+*.h5
+ModelFlick*/
+
+# --- 2. Data & Datasets ---
+# Datasets are usually too large for Git. 
+# We ignore everything in data/ except the folder itself.
+data/*
+# If you want to keep your specific vocab file, comment the line below:
+# !data/vocab.json 
+
+# --- 3. Python & Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+vlm_env/
+.env
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- 4. OS & IDE Specific ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+desktop.ini

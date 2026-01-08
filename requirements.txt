@@ -1,0 +1,19 @@
+# Deep Learning Frameworks
+torch
+torchvision
+torchaudio
+
+# Vision & Language Models
+ultralytics
+transformers
+accelerate
+
+# Image Processing & Math
+opencv-python
+Pillow
+numpy
+pandas
+
+# UI & Utilities
+# (Tkinter is usually included in standard Python, 
+# but these are the supporting libraries)
